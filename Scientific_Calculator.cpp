@@ -1,17 +1,17 @@
 #include<iostream>
 #include<math.h> 
 
-//Include file operasi
-//#include "operasi_dasar.hpp"
-//#include "trigonometri.hpp"
-
+//Include file hpp
+#include "operasi_dasar.hpp"
+#include "trigonometri.hpp"
+#include "eksponensial.hpp"
 using namespace std;
-#define PI 3.14
+
 
 int main(){
 //Membuat Objek dari kelas
-//operasi_dasar operasi;
-
+operasi_dasar operasi;
+  
     float a,b ;
 
 // Tampilan pada Terminal
@@ -23,7 +23,7 @@ int main(){
     cout<<"2: Pengurangan\t\t\t"<<"8: Cos\t\t"<<"\t\t14: Log dengan basis 10"<<endl; 
     cout<<"3: Perkalian\t\t\t"<<"9: Tan\t\t"<<endl; 
     cout<<"4: Pembagian\t\t\t"<<"10: Inverse dari Sin"<<endl; 
-    cout<<"5: Exponen\t\t\t"<<"11: Inverse dari Cos"<<endl; 
+    cout<<"5: Pamgkat\t\t\t"<<"11: Inverse dari Cos"<<endl; 
     cout<<"6: Akar Kuadrat\t\t\t"<<"12: Inverse dari Tan"<<endl;
 
 // Switch Case Pilihan operasi yang ingin dijalankan
@@ -32,7 +32,7 @@ int main(){
     cin>>i;
     switch(i)
     { 
-        case 1: 
+        case 1:
         break; 
         case 2:
         break; 
