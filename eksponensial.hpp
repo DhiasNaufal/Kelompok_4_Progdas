@@ -28,7 +28,7 @@ void eksponensial :: flog(){
     int a, b;
     cout<<"masukan angka : ";
     cin>>a;
-    cout<<"Hasil lognya = "<<log(a)<<endl; 
+    cout<<"Hasil lognya = "<<log(a)<<endl;
 }
 void eksponensial :: log_basis_10(){
     int a;
