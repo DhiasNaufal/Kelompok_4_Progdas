@@ -11,7 +11,8 @@ using namespace std;
 int main(){
 //Membuat Objek dari kelas
 operasi_dasar operasi;
-  
+trigonometri trigo;
+eksponensial ekspo;
     float a,b ;
 
 // Tampilan pada Terminal
@@ -33,12 +34,16 @@ operasi_dasar operasi;
     switch(i)
     { 
         case 1:
+        operasi.pertambahan();
         break; 
         case 2:
+        operasi.pengurangan();
         break; 
         case 3:
+        operasi.perkalian();
         break; 
-        case 4: 
+        case 4:
+        operasi.pembagian(); 
         break; 
         case 5: 
         break; 

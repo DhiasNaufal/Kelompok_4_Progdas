@@ -41,10 +41,11 @@ void operasi_dasar::perkalian(){
         printf("%d x %d = %d\n", a, b, a*b);
 }
 void operasi_dasar::pembagian(){
-        float a,b;
+        double a,b;
         cout<<"masukan angka pertama : "; 
         cin>>a; 
         cout<<"masukan angka kedua : "; 
         cin>>b; 
-        printf("%d / %d = %d\n", a, b, a/b);
+        cout<<"hasil pembagian adalah :";
+        cout<<static_cast<double>(a)/static_cast<double>(b);
 }
