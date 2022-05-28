@@ -16,36 +16,39 @@ class trigonometri{
 };
 void trigonometri::fsin(){
     int a;
-    cout<<"Masukan besar sudut : "; 
+    cout<<"Masukan besar sudut : ";
     cin>>a;
-    cout<<"sin "<<a<<" = "<<sin(a)<<endl;
+    double b = a * PI/180.0; 
+    cout<<"sin "<<a<<" = "<<sin(b)<<endl;
 }
 void trigonometri::fcos(){
     int a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
+    double b = a * PI/180.0; 
     cout<<"cos "<<a<<" = "<<cos(a)<<endl;
 }
 void trigonometri::ftan(){
     int a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
+    double b = a * PI/180.0; 
     cout<<"tan "<<a<<" = "<<tan(a)<<endl;
 }
 void trigonometri :: arcsin(){
-    int a;
+    double a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
     cout<<"arcsin "<<a<<" = "<<asin(a)*180.0/PI<<endl;
 }
 void trigonometri :: arccos(){
-    int a;
+    double a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
     cout<<"arcos "<<a<<" = "<<acos(a)*180.0/PI<<endl;
 }
 void trigonometri :: arctan(){
-    int a;
+    double a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
     cout<<"arctan "<<a<<" = "<<atan(a)*180.0/PI<<endl;
