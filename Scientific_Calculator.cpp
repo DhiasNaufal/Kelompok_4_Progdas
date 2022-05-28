@@ -64,7 +64,7 @@ eksponensial ekspo;
         trigo.arcsin();
         break; 
         case 11:
-        trigo.arcos();
+        trigo.arccos();
         break; 
         case 12:
         trigo.arctan();

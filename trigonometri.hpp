@@ -11,7 +11,7 @@ class trigonometri{
     void fcos();
     void ftan();
     void arcsin();
-    void arcos();
+    void arccos();
     void arctan();
 };
 void trigonometri::fsin(){
@@ -38,13 +38,13 @@ void trigonometri :: arcsin(){
     cin>>a;
     cout<<"arcsin "<<a<<" = "<<asin(a)*180.0/PI<<endl;
 }
-void arccos(){
+void trigonometri :: arccos(){
     int a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
     cout<<"arcos "<<a<<" = "<<acos(a)*180.0/PI<<endl;
 }
-void arctan(){
+void trigonometri :: arctan(){
     int a;
     cout<<"Masukan besar sudut : "; 
     cin>>a;
