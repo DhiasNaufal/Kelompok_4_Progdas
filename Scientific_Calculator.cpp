@@ -52,16 +52,22 @@ eksponensial ekspo;
         ekspo.akar_kuadrat(); 
         break; 
         case 7: 
+        trigo.fsin();
         break; 
         case 8: 
+        trigo.fcos();
         break; 
         case 9:
+        trigo.ftan();
         break; 
         case 10: 
+        trigo.arcsin();
         break; 
         case 11:
+        trigo.arcos();
         break; 
         case 12:
+        trigo.arctan();
         break; 
         case 13:
         ekspo.flog();
