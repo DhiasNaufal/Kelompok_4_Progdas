@@ -25,7 +25,7 @@ void eksponensial :: akar_kuadrat(){
     cout<<"Hasil akarnya = "<<sqrt(a)<<endl; 
 }
 void eksponensial :: flog(){
-    int a, b;
+    int a;
     cout<<"masukan angka : ";
     cin>>a;
     cout<<"Hasil lognya = "<<log(a)<<endl;
